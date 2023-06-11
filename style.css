@@ -26,6 +26,7 @@ nav {
   border-radius: 16px;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 .nav-links {
@@ -60,6 +61,7 @@ nav {
   text-align: center;
 }
 .hero {
+  min-height: 100vh;
   color: black;
   width: 100vw;
   padding: 20px;
@@ -98,6 +100,7 @@ nav {
   background-color: #f5f5f5;
   margin: auto;
   padding: 1rem;
+  min-height: 100vh;
 }
 
 .budget h2 {
@@ -249,6 +252,7 @@ nav {
   color: #587ef4;
 }
 .graph-section {
+  min-height: 100vh;
   width: 90%;
   margin: auto;
   display: flex;
@@ -287,6 +291,7 @@ nav {
 }
 
 .reminder-section {
+  min-height: 100vh;
   width: 60%;
   margin: auto;
   text-align: center;
@@ -493,6 +498,7 @@ footer {
 
 /* contact-us css */
 .contact-us {
+  min-height: 100vh;
   width: 60%;
   background-color: white;
   color: black;
@@ -792,6 +798,14 @@ footer {
   .nav-links-hamburger {
     inset: 40% 0px 1px;
   }
+  /* write css to remove min-height from all the sections */
+  .hero,
+  .graph-section,
+  .reminder-section,
+  .contact-us {
+    min-height: 0;
+  }
+  
 }
 
 /* media quaries for contact form */
