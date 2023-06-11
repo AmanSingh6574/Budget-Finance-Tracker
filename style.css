@@ -597,10 +597,10 @@ footer {
 .nav-links-hamburger {
   display: none;
   position: absolute;
-  inset: 30% 0px 1px;
+  inset: 40% 0px 1px;
   width: 100%;
   padding: 10px;
-  height: 202px;
+  height: 300px;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
   transform: translateY(-50%);
@@ -788,6 +788,9 @@ footer {
 
   .footer-social p {
     font-size: 0.8rem;
+  }
+  .nav-links-hamburger {
+    inset: 40% 0px 1px;
   }
 }
 
