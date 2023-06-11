@@ -25,10 +25,10 @@ nav {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 16px;
   z-index: 2;
-  background-color:  rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.nav-links{
+.nav-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,16 +45,15 @@ nav {
   font-weight: bold;
 }
 
-.nav-links li a:hover{
+.nav-links li a:hover {
   letter-spacing: 2px;
 }
 
-.hero h1 {  
-  font-size: 30px
-
+.hero h1 {
+  font-size: 30px;
 }
 
-.hero p{
+.hero p {
   padding: 12px;
   font-size: 17px;
   width: 80%;
@@ -65,55 +64,51 @@ nav {
   min-height: 100vh;
   width: 100vw;
   padding: 20px;
- display: flex;
- justify-content: space-between;
- align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.dis{
+.dis {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   flex-direction: column;
   gap: 12px;
-  
 }
-.hero div{
+.hero div {
   width: 50%;
   margin: auto;
 }
 
-.img img{
+.img img {
   width: 500px;
   height: 400px;
   border-radius: 20px;
 }
 
-.img{
+.img {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.budget{
+.budget {
   width: 100%;
   min-height: 100vh;
   text-align: center;
   background-color: #f5f5f5;
   margin: auto;
   padding: 1rem;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
-.budget h2{
-  font-size: 2rem;
+.budget h2 {
+  font-size: 1.6rem;
   margin-bottom: 1rem;
   text-align: center;
   display: inline-block;
   border-bottom: 4px solid #587ef4;
-  margin-top: 50px;
-  
+  margin-top: 20px;
 }
 
 .sub-container {
@@ -164,7 +159,6 @@ nav {
   flex-direction: column;
   align-items: center;
   z-index: 1;
-
 }
 .output-container {
   width: 80%;
@@ -198,7 +192,6 @@ nav {
   border-radius: 0.3em;
   cursor: pointer;
   transition: all 0.3s ease;
-  
 }
 
 .submit:hover {
@@ -213,6 +206,7 @@ nav {
   border-radius: 0.6em;
   margin: auto;
   margin-top: 1.2rem;
+  margin-bottom: 20px;
 }
 .sublist-content {
   width: 100%;
@@ -256,41 +250,39 @@ nav {
   border: none;
   color: #587ef4;
 }
-.graph-section{
+.graph-section {
   width: 90%;
   min-height: 100vh;
   margin: auto;
-  margin-top: 100px;
   display: flex;
   justify-items: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 1.2rem;
 }
 .graph-section p {
   width: 80%;
   color: #0d4035;
   font-weight: 200;
   font-size: 17px;
+  text-align: center;
 }
 .graph-heading {
   font-size: 2rem;
   margin-bottom: 1rem;
   text-align: center;
   border-bottom: 4px solid #587ef4;
-
 }
 .graph {
-  margin-top: 1rem;
   background-color: #ffffff;
   padding: 1.8em 1.2em;
   box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
   border-radius: 0.6em;
   margin: auto;
   margin-top: 1.3rem;
-  
 }
 
-.section-4{
+.section-4 {
   width: 100vw;
   min-height: 100vh;
   background-color: #f5f5f5;
@@ -299,14 +291,14 @@ nav {
 }
 
 .reminder-section {
-  margin-bottom: 20px;
   width: 60%;
   margin: auto;
-  margin-top: 100px;
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.reminder-section p{
+.reminder-section p {
   font-size: 20px;
   margin-bottom: 0.6em;
 }
@@ -384,7 +376,6 @@ nav {
   margin: 0;
 }
 
-
 .delete-button {
   background: none;
   border: none;
@@ -405,7 +396,6 @@ nav {
   margin-bottom: 0;
 }
 
-
 /* css footer in html */
 footer {
   width: 100%;
@@ -415,76 +405,72 @@ footer {
   text-align: center;
   padding: 20px;
 }
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
   padding: 10px;
   margin: auto;
-  margin-bottom: 50px;
 }
-.footer-logo{
+.footer-logo {
   font-size: 1rem;
   font-weight: 400;
 }
-.footer-links{
-  margin-bottom: 50px;
-}
-.footer-links a{
+.footer-links a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
   margin-right: 20px;
   transition: all 0.3s ease-in-out;
-  
 }
-.footer-links a:hover{
+.footer-links a:hover {
   text-shadow: 0px 0px 10px #587ef4;
   letter-spacing: 1px;
 }
-.footer-social ul{
+.footer-social ul {
   display: flex;
   align-items: center;
   gap: 10px;
   transition: all 0.3s ease-in-out;
 }
-.footer-social a{
+.footer-social a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
-.footer-social a:hover{
-  color: #587ef4;  
+.footer-social a:hover {
+  color: #587ef4;
 }
-.footer-social i{
+.footer-social i {
   font-size: 1.5rem;
   margin-right: 10px;
   transition: all 0.3s ease-in-out;
 }
-.footer-social i:hover{
+.footer-social i:hover {
   color: #587ef4;
 }
-.footer-social p{
+.footer-social p {
   position: absolute;
-  bottom:0px;
+  bottom: 0px;
   font-size: 1rem;
   font-weight: 500;
 }
-.footer-social p:hover{
+.footer-social p:hover {
   color: #587ef4;
 }
 
-.footer-line{
+.footer-line {
   width: 100%;
   height: 1px;
   background-color: #fff;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.footer-bottom{
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -492,49 +478,48 @@ footer {
   padding: 5px;
   margin: auto;
 }
-.footer-git p a{
+.footer-git p a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
-.footer-git{
+.footer-git {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.git-icon{
+.git-icon {
   font-size: 1.5rem;
+  padding: 4px;
 }
 
-
 /* contact-us css */
-.contact-us{
+.contact-us {
   width: 60%;
   min-height: 100vh;
   background-color: white;
-  color:black;
+  color: black;
   text-align: center;
   margin: auto;
-  margin-top: 50px;
   padding: 20px;
 }
-.contact-us h2{
+.contact-us h2 {
   display: inline-block;
   border-bottom: 4px solid #587ef4;
 }
-.contact-us p{
+.contact-us p {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 10px;
 }
-.contact-us form{
+.contact-us form {
   width: 80%;
   margin: auto;
   margin-bottom: 20px;
 }
-.contact-us form input{
+.contact-us form input {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -544,7 +529,7 @@ footer {
   font-size: 1rem;
   font-weight: 400;
 }
-.contact-us form textarea{
+.contact-us form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -556,7 +541,7 @@ footer {
   font-size: 1rem;
   font-weight: 400;
 }
-.submitbtn{
+.submitbtn {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -570,12 +555,11 @@ footer {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.submitbtn:hover{
+.submitbtn:hover {
   background-color: #587ef4;
   color: white;
 }
 /* css media query */
-
 
 /* Hamburger menu styles */
 /* Hamburger menu styles */
@@ -631,7 +615,6 @@ footer {
   margin: auto;
   text-align: center;
   z-index: 10;
-  
 }
 .nav-links-hamburger li {
   margin-bottom: 10px;
@@ -652,8 +635,6 @@ footer {
   display: block;
 }
 
-
-
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   .nav-links {
@@ -673,13 +654,12 @@ footer {
   .nav-links-hamburger.active {
     display: block;
   }
-  .footer-bottom , .footer-git{
+  .footer-bottom,
+  .footer-git {
     flex-direction: column;
     gap: 10px;
   }
 }
-
-
 
 @media screen and (max-width: 700px) {
   .wrapper {
@@ -689,69 +669,71 @@ footer {
     grid-template-columns: 1fr;
     gap: 1em;
   }
-  .graph-section p{
+  .graph-section p {
     font-size: 15px;
     text-align: center;
   }
-  .graph{
+  .graph {
     width: 100%;
   }
-  .list{
+  .list {
     padding: 2px;
     width: 80%;
-    
   }
-  .edit, .delete{
+  .edit,
+  .delete {
     font-size: 12px;
   }
-  .delete{
+  .delete {
     margin-right: 0px;
   }
-
- }
-  .hero p{
+  .hero p,
+  .graph-heading p {
     font-size: 16px;
   }
-  .hero h1{
+  .hero h1,
+  .graph-heading {
     font-size: 1.6rem;
   }
-  .reminder-section , .contact-us{
+  .graph-heading{
+    font-size: 1.3rem
+  }
+  .reminder-section,
+  .contact-us {
     width: 80%;
   }
-  .reminder-section h2{
+  .reminder-section h2 {
     font-size: 1.6rem;
   }
-  .reminder-section p{
+  .reminder-section p {
     font-size: 16px;
   }
-  .img img{
+  .img img {
     height: auto;
   }
-  .section-4{
+  .section-4 {
     width: 100%;
   }
-  .reminder-list{
+  .reminder-list {
     width: 100%;
   }
- 
-  
-
-@media screen and (max-width: 1000px){
-  .hero{
+}
+@media screen and (max-width: 1000px) {
+  .hero {
     margin-top: 70px;
     flex-direction: column;
   }
-  .hero div{
+  .hero div {
     width: 100%;
     margin: 0 auto;
     text-align: center;
     padding: 12px;
   }
-  
 }
 
-@media screen and (min-width: 1000px){
-  .reminder-section , #reminder-list{
+@media screen and (min-width: 1000px) {
+  .reminder-section,
+  #reminder-list {
     width: 50%;
   }
 }
@@ -761,11 +743,11 @@ footer {
   .footer-container {
     flex-direction: column;
   }
-  
+
   .footer-links {
     margin-top: 20px;
   }
-  
+
   .footer-social {
     margin-top: 20px;
   }
@@ -777,23 +759,24 @@ footer {
     font-size: 1rem;
   }
 
-  
   .footer-links a,
   .footer-social a {
     font-size: 0.9rem;
   }
-  
+
   .footer-social i {
     font-size: 1.2rem;
   }
-  
+
   .footer-social p {
     font-size: 0.9rem;
   }
-  .output-container , .user-amount-container , .total-amount-container ,  .list{
+  .output-container,
+  .user-amount-container,
+  .total-amount-container,
+  .list {
     width: 100%;
   }
-
 }
 
 /* For screens smaller than 400px */
@@ -801,26 +784,26 @@ footer {
   .footer-logo {
     font-size: 0.8rem;
   }
-  
+
   .footer-links a,
   .footer-social a {
     font-size: 0.8rem;
   }
-  
+
   .footer-social i {
     font-size: 1rem;
   }
-  
+
   .footer-social p {
     font-size: 0.8rem;
   }
 }
 
 /* media quaries for contact form */
-@media screen and (max-width: 600px){
-  .contact-us , .reminder-section  , #reminder-list{
+@media screen and (max-width: 600px) {
+  .contact-us,
+  .reminder-section,
+  #reminder-list {
     width: 80%;
   }
 }
-
-
